@@ -67,6 +67,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/joaofonsecadev"
+    - label: "Ko-fi"
+      icon: "fas fa-fw fa-coffee"
+      url: "https://ko-fi.com/joaofonsecadev"
 
 footer:
   links:
@@ -76,6 +79,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/joaofonsecadev"
+    - label: "Ko-fi"
+      icon: "fas fa-fw fa-coffee"
+      url: "https://ko-fi.com/joaofonsecadev"
 
 defaults:
   # _posts
