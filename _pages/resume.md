@@ -10,23 +10,25 @@ permalink: "/resume/"
 - Working on the open-world survival MMO [Dune: Awakening](https://duneawakening.com/).
 - Create frameworks to write and execute automated tests.
 - Extend Unreal Engine's automation test system.
+- Conceptualize and implement tools for Unreal Engine with a focus on workflow optimization.
 - Add automated testing to CI/CD pipelines.
-- Implement gameplay hooks for automated testing.
+- Further develop gameplay code to be test friendly.
 
 ### Full Stack Engineer
 **Devoteam** — _Sep 2019 - Feb 2020_
-- Maintained critical web apps and services built on C# with strict business rules.
-- Set up, maintained and managed version control servers (Linux, Gitlab), along with the creation of entire agile workflows.
-- Created secure full stack web apps (JavaScript, React, JWT, Redis, C#, .NET Core) to manage business information, which were in constant communication with management software (SAP, Microsoft Dynamics 365, REST, SOAP).
-- Created CI/CD pipelines (Linux, Docker, Gitlab) for different types of applications built with various technologies.
+- Maintained critical web apps and services with strict business rules.
+- Set up, maintained and managed version control servers, along with the creation of entire agile workflows.
+- Created secure full stack web apps to manage business information, which were in constant communication with management software.
+- Created CI/CD pipelines for different types of applications built with various technologies.
 
 ## Skills
-- **Languages** - C++, C#, TypeScript, JavaScript, Python, Bash, SQL, GraphQL, HTML, CSS
-- **Frameworks** - Unreal Engine, Unity, React, NodeJS, Gatsby, .NET Core
-- **Concepts** - Game Development, Web Development, Version Control (Git, Perforce), Authentication (JWT), Databases (PostgreSQL, Microsoft SQL Server, MongoDB, Redis), Systems Administration (Linux), Testing (Unit, Integration)
+- **Languages** - C++, TypeScript, Python, Bash, SQL
+- **Frameworks** - Unreal Engine, React, NodeJS
+- **Tools** - Perforce, Git, Jira, Confluence, Visual Studio, Rider
+- **Concepts** - Game development, web development, version control, databases, testing
 
 ## Education
-### MBA Management with a Specialization in Digital Innovation
+### MBA in Management with a Specialization in Digital Innovation
 **Católica Lisbon School of Business & Economics** - _2020 - 2021_
 
 ### BSc Games & Apps Development
