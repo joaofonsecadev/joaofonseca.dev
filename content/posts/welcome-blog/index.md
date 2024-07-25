@@ -1,6 +1,8 @@
 ---
 title: "Welcome to my blog!"
-date: "2022-06-01"
+date: 2022-06-01
+tags:
+- meta
 ---
 EDIT: This post refers to a previous version of the website. That version is available in [its github repo](https://github.com/joaofonsecadev/gatsby-personal-website).
 

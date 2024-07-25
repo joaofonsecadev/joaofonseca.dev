@@ -40,7 +40,7 @@ paginate     = 10
     logoText     = "João Fonseca"
     logoHomeLink = "/"
     # logoCursorDisabled = false
-    logoCursorColor    = "#c96767"
+    logoCursorColor    = "#d84a4a"
     logoCursorAnimate  = "1s"
     # logoCursorPathname = true
 
