@@ -1,5 +1,5 @@
 baseurl      = "joaofonseca.dev"
-title        = "João Fonseca - Game, web, etc, dev"
+title        = "João Fonseca // Software Developer"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
 paginate     = 10
@@ -11,48 +11,72 @@ paginate     = 10
   dateformNumTime = "2006-01-02 15:04"
 
   # Subtitle for home
-  homeSubtitle = "Lisbon based developer with too many side projects and not enough time."
+  homeSubtitle = "Lisbon-based game engines and C++ enthusiast, constantly juggling too many side projects<br/>and wondering where all the time goes."
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
-  disableReadOtherPosts = false
+  disableReadOtherPosts = true
 
   # Enable sharing buttons, if you like
-  enableSharingButtons = true
+  enableSharingButtons = false
   
   # Show a global language switcher in the navigation bar
   enableGlobalLanguageMenu = false
 
   # Metadata mostly used in document's head
-  description = "My new homepage or blog"
-  keywords = "homepage, blog"
+  description = "Lisbon based developer with too many side projects and not enough time"
+  keywords = ""
   images = [""]
 
+  justifyContent = true
+
+  [params.meta]
+    favicon = true
+
+  [params.author]
+    name = "João Fonseca"
+
+  [params.logo]
+    logoMark     = "//"
+    logoText     = "João Fonseca"
+    logoHomeLink = "/"
+    # logoCursorDisabled = false
+    logoCursorColor    = "#c96767"
+    logoCursorAnimate  = "1s"
+    # logoCursorPathname = true
+
+  [params.footer]
+    trademark = "2022 - 2024 • João Fonseca"
+    rss = false
+    copyright = false
+    author = false
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:hello@joaofonseca.dev"
+
+  [[params.social]]
+    name = "X"
+    url  = "https://x.com/joaofonsecadev"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/joaofonsecadev"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/joaofonsecadev/"
+
 [taxonomies]
-    category = "blog"
+    category = "categories"
     tag      = "tags"
     series   = "series"
 
-[languages]
-  [languages.en]
-    title = "Hello Friend NG"
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-    readOtherPosts = "Read other posts"
-
-  [languages.en.params]
-    subtitle  = "A simple theme for Hugo"
-    keywords = ""
-    readOtherPosts = "Read other posts"
-
-    [languages.en.params.logo]
-      logoText = "hello friend ng"
-      logoHomeLink = "/"
-    # or
-    #
-    # path = "/img/your-example-logo.svg"
-    # alt = "Your example logo alt text"
-
-  # And you can even create generic menu
+[menu]
   [[menu.main]]
-    identifier = "blog"
-    name       = "Blog"
+    identifier = "posts"
+    name       = "Posts"
     url        = "/posts"
+  [[menu.main]]
+    identifier = "resume"
+    name       = "Resume"
+    url        = "/resume"
